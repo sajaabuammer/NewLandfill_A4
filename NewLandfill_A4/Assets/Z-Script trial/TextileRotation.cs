@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WheelController : MonoBehaviour
+public class TextileRotation : MonoBehaviour
 {
 
     float rotSpeed = 0;
@@ -10,14 +10,14 @@ public class WheelController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.M))
-            {
+        if (Input.GetMouseButtonDown(0))
+        {
             this.rotSpeed = 5;
         }
 
